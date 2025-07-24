@@ -2,7 +2,7 @@
 
 An interactive Streamlit web application showcasing team members' AI tools usage profiles.  
 Profiles include names, emails, images, and detailed AI tools and prompts used.
-
+![UI Screenshot](images/UI.png)
 ---
 ## Project Structure
 ```commandline
