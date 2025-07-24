@@ -18,9 +18,10 @@ def main():
 
     if search_term:
         df = df[df.apply(
-            lambda row: search_term in str(row['Fullname']).lower()
-                     or search_term in str(row['Account']).lower()
-                     or search_term in str(row['AI Tools']).lower(),
+            lambda row: search_term in str(row['Name']).lower()
+                     or search_term in str(row['Email']).lower()
+                     or search_term in str(row['AI Tools Used']).lower()
+                     or search_term in str(row['Title']).lower(),
             axis=1
         )]
         if df.empty:
