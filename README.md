@@ -6,7 +6,7 @@ Profiles include names, emails, images, and detailed AI tools and prompts used.
 ---
 ## Project Structure
 ```commandline
-ai_profiles/
+ai-team-profiles/
 ├── README.md
 ├── app.py
 ├── pyproject.toml
@@ -44,8 +44,8 @@ ai_profiles/
 1. **Clone the repository**
 
    ```bash
-   - downlod and unzip the project
-   - cd ai_profiles
+   - git clone https://github.com/ajeet214/ai-team-profiles.git
+   - cd ai-team-profiles
 
 2. **Install dependencies and setup environment using `uv`**
 
