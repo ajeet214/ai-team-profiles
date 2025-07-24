@@ -17,8 +17,8 @@ ai-team-profiles/
 ├── data/
 │ └── profiles.xlsx # Excel data source
 ├── images/
-│ ├── anhnt446.jpg # Profile images
-│ └── minhln13.jpg
+│ ├── bob.jpg # Profile images
+│ └── alice.jpg
 ├── styles/
 │ └── style.css # Custom CSS styles
 └── utils/
